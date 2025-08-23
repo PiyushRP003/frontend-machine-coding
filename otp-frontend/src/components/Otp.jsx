@@ -30,7 +30,6 @@ const Otp = ({ length ,onChangeOTP}) => {
   }
 
   const handleChange = (e, index) => {
-     console.log("handle change");
     let value = e.target.value;
     if (isNaN(value)) return;
 
